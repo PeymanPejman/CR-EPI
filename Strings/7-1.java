@@ -6,7 +6,7 @@
  * Assumptions: The input only contains valid integer numbers as problem statement suggests. 
  */
 
-public int static toInt(String s) {
+public static int toInt(String s) {
   boolean isPositive = true;
   int i=0;
   
@@ -22,4 +22,21 @@ public int static toInt(String s) {
   }
 
   return isPositive? result : result*-1;
+}
+
+public static String toString(int n) {
+  boolean isPositive = true;
+
+  if(n<0) {
+    isPositive = false;
+  }
+  n = Math.abs(n);
+  
+  StringBuilder result = new StringBuilder();
+  while (n>0) {
+    result.append(0,(char)((n%10) + '0'));
+    n /= 10;
+  }
+
+  return isPositive? result.toString() : result.append(0,'-').toString();
 }
