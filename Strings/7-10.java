@@ -1,8 +1,8 @@
 /*
- * Time (mm): 
- * Chapter/Problem: 
- * Page on EPI:
- * Self Evaluation:
+ * Time (mm):9 
+ * Chapter/Problem: 7-10 
+ * Page on EPI: 106
+ * Self Evaluation: 2/3 Overlooked some conditions to check validity of the IP
  * Assumptions:
  */
 
