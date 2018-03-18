@@ -1,8 +1,8 @@
 /*
- * Time (mm): 
- * Chapter/Problem: 
+ * Time (mm): 5
+ * Chapter/Problem: 8-7 
  * Page on EPI:
- * Self Evaluation:
+ * Self Evaluation: 3/3
  * Assumptions:
  *
  * class ListNode<T> {
